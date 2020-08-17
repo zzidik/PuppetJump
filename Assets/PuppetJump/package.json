@@ -1,0 +1,15 @@
+{
+  "name": "edu.psu.puppetjump",
+  "version": "0.0.3",
+  "displayName": "PuppetJump",
+  "description": "VR Core Integration",
+  "unity": "2019.3",
+  "unityRelease": "0b5",
+  "author": {
+    "name": "Zac Zidik",
+    "email": "zez1@psu.edu",
+    "url": "https://sites.psu.edu/zaczidik/"
+  },
+  "hideInEditor": false,
+  "type": "tool"
+}

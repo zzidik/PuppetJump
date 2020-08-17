@@ -1,0 +1,1954 @@
+fileFormatVersion: 2
+guid: 5ff5622fedd529e41994464b02aa2aab
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: pointer_straight_oculus
+  - first:
+      74: -5405653242291790180
+    second: thumb_holdController_oculus
+  - first:
+      74: -998496362607748373
+    second: pointer_holdController_oculus
+  - first:
+      74: -3478861687725955094
+    second: pointer_triggerPull_oculus
+  - first:
+      74: 4164847316539806336
+    second: threeFingers_straight_oculus
+  - first:
+      74: -4808220086849926229
+    second: threeFingers_holdController_oculus
+  - first:
+      74: 1617472188058856428
+    second: threeFingers_triggerGrab_oculus
+  - first:
+      74: -3993965987937093526
+    second: thumb_straight_oculus
+  - first:
+      74: 6262702788711446084
+    second: thumb_buttonOnePress_oculus
+  - first:
+      74: -5962557200924174036
+    second: thumb_buttonTwoPress_oculus
+  - first:
+      74: 6513658918448885558
+    second: thumb_joystick_oculus
+  - first:
+      74: 5594888296301594033
+    second: pointer_holdController_vive
+  - first:
+      74: -299839921535068758
+    second: pointer_triggerPull_vive
+  - first:
+      74: -5616680384393967421
+    second: threeFingers_holdController_vive
+  - first:
+      74: -7340878757929854619
+    second: threeFingers_triggerGrab_vive
+  - first:
+      74: 871998725892075362
+    second: thumb_holdController_vive
+  - first:
+      74: 5926650097675495983
+    second: thumb_thumbPad_vive
+  - first:
+      74: -8120257075710588472
+    second: thumb_buttonOnePress_vive
+  - first:
+      74: 2552448804887473090
+    second: thumb_buttonTwoPress_vive
+  - first:
+      74: -8020554118476017919
+    second: hand_holdController_oculus
+  - first:
+      74: 8742726904126014814
+    second: hand_holdController_vive
+  - first:
+      74: 6546218516702610803
+    second: hand_buttonOnePress_vive
+  - first:
+      74: -4054256488543876164
+    second: hand_buttonTwoPress_vive
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pointer_straight_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 1
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 5624eaeeb4ce6ed4290275c07fe80308, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pointer_holdController_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 1
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 5624eaeeb4ce6ed4290275c07fe80308, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pointer_triggerPull_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 4
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 1
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 5624eaeeb4ce6ed4290275c07fe80308, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: threeFingers_straight_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 1
+      - path: BHandR/BPinky1R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 1
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 1
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 37b8b98019d31bb42b54df30eefe0236, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: threeFingers_holdController_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 1
+      - path: BHandR/BPinky1R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 1
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 1
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 37b8b98019d31bb42b54df30eefe0236, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: threeFingers_triggerGrab_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 6
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 1
+      - path: BHandR/BPinky1R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 1
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 1
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 37b8b98019d31bb42b54df30eefe0236, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_straight_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_holdController_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_buttonOnePress_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 8
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_buttonTwoPress_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_joystick_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 12
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pointer_holdController_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 1
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 5624eaeeb4ce6ed4290275c07fe80308, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pointer_triggerPull_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 16
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 1
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 1
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 5624eaeeb4ce6ed4290275c07fe80308, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: threeFingers_holdController_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 1
+      - path: BHandR/BPinky1R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 1
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 1
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 37b8b98019d31bb42b54df30eefe0236, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: threeFingers_triggerGrab_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 18
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 1
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 1
+      - path: BHandR/BPinky1R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 1
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 1
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 1
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 1
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 37b8b98019d31bb42b54df30eefe0236, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_holdController_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_thumbPad_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 20
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_buttonOnePress_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 22
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: thumb_buttonTwoPress_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 24
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 0
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 1
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 1
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 7ba4d438643c7024da718f999efe8464, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_holdController_oculus
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 1
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 69d6352ebb2884c4b992fbd657035c1e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_holdController_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 14
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 1
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 69d6352ebb2884c4b992fbd657035c1e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_buttonOnePress_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 22
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 1
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 69d6352ebb2884c4b992fbd657035c1e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hand_buttonTwoPress_vive
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 24
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BHandR
+        weight: 1
+      - path: BHandR/BMiddle1R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R
+        weight: 0
+      - path: BHandR/BMiddle1R/BMiddle2R/BMiddle3R/BMiddle4R
+        weight: 0
+      - path: BHandR/BPinky1R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R
+        weight: 0
+      - path: BHandR/BPinky1R/BPinky2R/BPinky3R/BPinky4R
+        weight: 0
+      - path: BHandR/BPointer1R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R
+        weight: 0
+      - path: BHandR/BPointer1R/BPointer2R/BPointer3R/BPointer4R
+        weight: 0
+      - path: BHandR/BRing1R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R
+        weight: 0
+      - path: BHandR/BRing1R/BRing2R/BRing3R/BRing4R
+        weight: 0
+      - path: BHandR/BThumb1R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R
+        weight: 0
+      - path: BHandR/BThumb1R/BThumb2R/BThumb3R
+        weight: 0
+      - path: handRight
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 69d6352ebb2884c4b992fbd657035c1e, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: hand_right_oculus(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: handRight
+      parentName: hand_right_oculus(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BHandR
+      parentName: hand_right_oculus(Clone)
+      position: {x: 0.030699188, y: -0.013301861, z: -0.12677018}
+      rotation: {x: -0.7071068, y: 0.0000000074223983, z: 0.000000007422398, w: 0.7071067}
+      scale: {x: 1.0260057, y: 1.0260053, z: 1.0260053}
+    - name: BPinky1R
+      parentName: BHandR
+      position: {x: -0.033734884, y: 0, z: 0}
+      rotation: {x: 0.000000029802322, y: -0.000000005103884, z: 0.2330718, w: 0.97245955}
+      scale: {x: 1.0193498, y: 1.0193503, z: 1.0193503}
+    - name: BPinky2R
+      parentName: BPinky1R
+      position: {x: -0.07776817, y: -0.0000007675765, z: 0}
+      rotation: {x: -8.078178e-10, y: -0.0000000018085142, z: -0.23535712, w: 0.971909}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999994}
+    - name: BPinky3R
+      parentName: BPinky2R
+      position: {x: -0.026599947, y: -0.0000000030279164, z: 0}
+      rotation: {x: 1.6653345e-16, y: -8.881784e-16, z: -0.000000014901161, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.000001}
+    - name: BPinky4R
+      parentName: BPinky3R
+      position: {x: -0.02237115, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 0.000000011175871, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: BRing1R
+      parentName: BHandR
+      position: {x: -0.033734884, y: 0, z: 0}
+      rotation: {x: -0.0041632657, y: 0.038292944, z: 0.10800595, w: 0.9934038}
+      scale: {x: 1.01935, y: 1.0193504, z: 1.0193505}
+    - name: BRing2R
+      parentName: BRing1R
+      position: {x: -0.075515345, y: 0.000000002270937, z: -5.677342e-10}
+      rotation: {x: -0.000000041443855, y: 0.000000007450581, z: -0.108062, w: 0.9941442}
+      scale: {x: 1.000001, y: 0.9999999, z: 1.0000002}
+    - name: BRing3R
+      parentName: BRing2R
+      position: {x: -0.03276638, y: 0.0000000015139578, z: -0.0000000011354684}
+      rotation: {x: -1.2074607e-10, y: -0.000000007507592, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: BRing4R
+      parentName: BRing3R
+      position: {x: -0.026687372, y: -0.0000000015139578, z: 0.0000000015139578}
+      rotation: {x: -0, y: -0, z: 0.0000000018626451, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: BMiddle1R
+      parentName: BHandR
+      position: {x: -0.033734884, y: 0, z: 0}
+      rotation: {x: 0.019588085, y: 0.53025866, z: -0.03030035, w: 0.8470679}
+      scale: {x: 1.0193502, y: 1.0193504, z: 1.019351}
+    - name: BMiddle2R
+      parentName: BMiddle1R
+      position: {x: -0.077141754, y: 0.00009679168, z: 0.0000000011354684}
+      rotation: {x: -0.00016014278, y: -0.02217704, z: -0.00035172608, w: 0.9997541}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000005}
+    - name: BMiddle3R
+      parentName: BMiddle2R
+      position: {x: -0.03671179, y: -0.0002372444, z: 0}
+      rotation: {x: -0.000000030142036, y: -0, z: 0.000000012675601, w: 1}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.9999999}
+    - name: BMiddle4R
+      parentName: BMiddle3R
+      position: {x: -0.030197678, y: 0.00000077666033, z: -0.0000000018924475}
+      rotation: {x: 0.000000029802319, y: -9.3132246e-10, z: -0.0000000228174, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: BPointer1R
+      parentName: BHandR
+      position: {x: -0.033734884, y: 0, z: 0}
+      rotation: {x: 0.011679799, y: 0.05850914, z: -0.19541164, w: 0.9789048}
+      scale: {x: 1.0193502, y: 1.0193505, z: 1.0193505}
+    - name: BPointer2R
+      parentName: BPointer1R
+      position: {x: -0.07685349, y: 0.0000000030279164, z: 0.0000000018924475}
+      rotation: {x: 0.0007750616, y: -0.004476667, z: 0.17058073, w: 0.98533326}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: BPointer3R
+      parentName: BPointer2R
+      position: {x: -0.036487225, y: -0.000000010597706, z: 7.569789e-10}
+      rotation: {x: 5.820766e-11, y: 0.000000011641532, z: -0.0000000022869244, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: BPointer4R
+      parentName: BPointer3R
+      position: {x: -0.02659883, y: -0.0000000015139578, z: 0.0000000015139578}
+      rotation: {x: -0, y: 0.000000005587935, z: -0.000000012107192, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: BThumb1R
+      parentName: BHandR
+      position: {x: -0.033734884, y: 0, z: 0}
+      rotation: {x: -0.28964472, y: -0.55640256, z: -0.33662307, w: 0.702287}
+      scale: {x: 1.0193505, y: 1.0193506, z: 1.0193508}
+    - name: BThumb2R
+      parentName: BThumb1R
+      position: {x: -0.06643857, y: 0, z: 0}
+      rotation: {x: 0.008901999, y: -0.021889212, z: 0.111615576, w: 0.9934705}
+      scale: {x: 0.9999995, y: 1.0000002, z: 0.99999994}
+    - name: BThumb3R
+      parentName: BThumb2R
+      position: {x: -0.030134207, y: -0.000000006055832, z: -0.000000006055832}
+      rotation: {x: 0.299015, y: 0.56928754, z: 0.17576799, w: 0.7453908}
+      scale: {x: 1.0000002, y: 1, z: 1.0000006}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
