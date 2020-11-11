@@ -28,6 +28,7 @@ namespace PuppetJump.Utils
             }
 
             // move the camera rig so the camera is in the target position
+            Debug.Log(transform.position);
             transform.position = newPos.position - cam.transform.localPosition;
 
             // move the dummy object to where the camera is

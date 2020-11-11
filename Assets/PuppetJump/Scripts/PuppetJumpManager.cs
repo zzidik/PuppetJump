@@ -101,6 +101,9 @@ namespace PuppetJump
                     {
                         ActivateSteamVRCameraRig();
                     }
+
+                    Debug.Log("SceneLoaded");
+                    vrReady = false;
                 }
 
                 // if no vr device is present

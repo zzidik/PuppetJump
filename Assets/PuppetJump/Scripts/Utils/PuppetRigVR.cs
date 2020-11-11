@@ -31,6 +31,8 @@ namespace PuppetJump.Utils
 
         public void InitializePuppet()
         {
+            Debug.Log("Initializing Puppet Rig VR");
+
             // ignore collisions bewtween the PuppetHead and the PuppetHands and the CharacterCollider
             foreach (var c in puppetStrings.head.puppetHead.GetComponentsInChildren<Collider>())
             {
@@ -47,6 +49,9 @@ namespace PuppetJump.Utils
                 Physics.IgnoreCollision(c, GetComponent<CharacterController>());
             }            
 
+            // it seems oculus does not liike if you try and reposition or reparent the camera rig on load
+            // so just don't do it
+            /*
             switch (views.view)
             {
                 case ViewTypes.firstPerson:
@@ -62,6 +67,7 @@ namespace PuppetJump.Utils
                     PuppetJumpManager.Instance.cameraRig.PositionCamera(views.thridPersonView);
                     break;
             }
+            */
 
             initialized = true;
         }

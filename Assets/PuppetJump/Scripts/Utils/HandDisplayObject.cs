@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace PuppetJump.Utils
 {
     public class HandDisplayObject : MonoBehaviour
     {
-        public UnityEditor.Animations.AnimatorController oculusController;
-        public UnityEditor.Animations.AnimatorController viveController;
+        public RuntimeAnimatorController oculusController;
+        public RuntimeAnimatorController viveController;
         public Animator animator;
 
         private void Update()

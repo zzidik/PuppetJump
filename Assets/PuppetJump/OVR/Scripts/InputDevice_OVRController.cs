@@ -24,7 +24,7 @@ namespace PuppetJump.OVR
         {
             // trigger down
             // for oculus touch and tracked remotes
-            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRController) || OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTrackedRemote))
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRController))
             {
                 inputEvents.trigger.down.Invoke();
                 inputEvents.trigger.isDown = true;
@@ -32,7 +32,7 @@ namespace PuppetJump.OVR
 
             // trigger up
             // for oculus touch and tracked remotes
-            if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, OVRController) || OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTrackedRemote))
+            if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger, OVRController))
             {
                 inputEvents.trigger.up.Invoke();
                 inputEvents.trigger.isDown = false;
@@ -59,14 +59,14 @@ namespace PuppetJump.OVR
             inputEvents.grip.position = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, OVRController);
 
             // thumbStick down
-            if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstick, OVRController) || OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTrackedRemote))
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstick, OVRController))
             {
                 inputEvents.joystick.down.Invoke();
                 inputEvents.joystick.isDown = true;
             }
 
             // thumbStick up
-            if (OVRInput.GetUp(OVRInput.Button.PrimaryThumbstick, OVRController) || OVRInput.GetUp(OVRInput.Button.One, OVRInput.Controller.RTrackedRemote))
+            if (OVRInput.GetUp(OVRInput.Button.PrimaryThumbstick, OVRController))
             {
                 inputEvents.joystick.up.Invoke();
                 inputEvents.joystick.isDown = false;
